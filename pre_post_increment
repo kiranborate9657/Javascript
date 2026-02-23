@@ -1,0 +1,9 @@
+var x=100;
+var y=200;
+
+console.log("pre and post increment");
+console.log("x before pre increment: "+x);
+console.log("y before post increment: "+y);
+
+
+console.log("After the both pre and the post increment:  "  + (x++ + ++y));
